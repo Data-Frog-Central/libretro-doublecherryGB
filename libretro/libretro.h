@@ -4430,9 +4430,9 @@ extern "C" {
     RETRO_API void* retro_get_memory_data(unsigned id);
     RETRO_API size_t retro_get_memory_size(unsigned id);
 
-    RETRO_API int retro_dblchry_emulated_count();
-    RETRO_API size_t retro_dblchry_get_sram_size(int slot);
-    RETRO_API void *retro_dblchry_get_sram_ptr(int slot);
+    RETRO_API int retro_dual_emulated_count();
+    RETRO_API size_t retro_dual_get_sram_size(int slot);
+    RETRO_API void *retro_dual_get_sram_ptr(int slot);
 
 #ifdef __cplusplus
 }
